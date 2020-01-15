@@ -1,0 +1,16 @@
+#stoplight {
+  width: 100%;
+  height: 100vh;
+
+  .light {
+    flex: 1;
+    background-color: $grey;
+    height: 100%;
+
+    &__red.on { background-color: $red; }
+    &__yellow.on { background-color: $yellow; }
+    &__green.on { background-color: $green; }
+  }
+}
+
+.shadow { box-shadow: inset 0 0 $m-size #000000; }

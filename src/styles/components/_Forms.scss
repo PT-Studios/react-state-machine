@@ -1,0 +1,14 @@
+label {
+  font-size: $m-size;
+  color: $white;
+  margin-right: $s-size;
+}
+
+input[type=number] {
+  padding: $s-size;
+  background-color: $grey;
+  color: $white;
+  border: 2px solid black;
+  font-size: $m-size;
+  width: $xl-size*2;
+}
